@@ -1,16 +1,50 @@
-# tayseer
+# Tayseer App
 
-A new Flutter project.
+A modern, multilingual Flutter application for submitting loan requests with responsive design, state management, and smooth navigation — built using **Provider**, **localization**, and **clean architecture principles**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ **Login & Authentication**
+  - Email & password authentication with error handling
+  - Success confirmation dialog
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📝 **Loan Request Submission**
+  - Multi-step loan application flow
+  - Dropdowns, text fields, and radio option buttons
+  - Progress step indicator
+  - Form state managed via Provider
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🌐 **Localization**
+  - Supports **English** and **Arabic**
+  - Fully RTL-compatible UI
+
+- 🌓 **Light / Dark Mode**
+  - Theme toggle with persistent state
+  - Custom `AppTheme` and `ThemeController`
+
+- 🎨 **Custom Components**
+  - Reusable dropdowns, text fields, headers, progress indicators
+  - Confirmation dialog with Lottie animation
+
+- 📱 **Responsive UI**
+  - MediaQuery-based helpers for responsive sizing
+
+---
+
+## 🚀 Getting Started
+
+### 🔐 Login Credentials
+
+To log in and test the app:
+
+- **Email**: Any valid email format (e.g. `user@example.com`)
+- **Password**: `123456`
+
+No backend authentication is required — credentials are mocked for demonstration.
+
+---
+
+## 🗂 Project Structure (Clean Architecture Inspired)
+
