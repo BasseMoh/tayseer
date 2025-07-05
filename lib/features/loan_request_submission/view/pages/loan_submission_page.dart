@@ -81,7 +81,7 @@ class LoanSubmissionPage extends StatelessWidget {
                       if (context.mounted) {
                         Navigator.of(context).pop(); // Close the dialog
                         Navigator.pushReplacementNamed(context, '/login');
-                        loanViewModel.dispose();
+                        Provider.of<LoanSubmissionViewModel>(context, listen: false).reset();
                       }
                     },
                   ),

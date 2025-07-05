@@ -32,6 +32,15 @@ class LoanSubmissionViewModel extends ChangeNotifier {
     notifyListeners();
   }
    
+void reset() {
+  selectedBranch = null;
+  selectedSource = null;
+  selectedPurpose = null;
+  isRelated = null;
+  selectedOption = null;
+  salesEmployeeCodeController.clear();
+  notifyListeners();
+}
 
   @override
   void dispose() {
